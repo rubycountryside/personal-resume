@@ -1,0 +1,24 @@
+{
+  "name": "personal-resume",
+  "version": "0.0.1",
+  "description": "my resume",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubycountryside/personal-resume.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubycountryside/personal-resume/issues"
+  },
+  "homepage": "https://github.com/rubycountryside/personal-resume#readme"
+}
