@@ -2,34 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>Kelvin - Bootstrap 3 Resume Theme</title>
-
-    <!-- Bootstrap core CSS -->
+    <title>我的简历</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
+    <link href="assets/css/main.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">  
     <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
     <script src="assets/js/Chart.js"></script>
 
   </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
-
+  <body>
 	<div id="section-topbar">
-		<div id="topbar-inner">
+		<div class="topbar-inner">
 			<div class="container">
 				<div class="row">
 					<div class="dropdown">
@@ -38,34 +21,30 @@
 							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
 							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
 							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
-
+						</ul>
+					</div>
 					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
-
+				</div>
+			</div>
 			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
+		</div>
+	</div>
 	
 	<div id="headerwrap">
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-12">
 					<h1>Ruby CountrySide</h1>
-					<h3>Web Designer | kelvin@blacktie.co</h3>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
+				</div>
+			</div>
+		</div>
+	</div>
 	
 
-	<section id="about" name="about"></section>
+	<section id="about" name="about"></section><!-- 很重要 -->
 	<div id="intro">
 		<div class="container">
 			<div class="row">
-				
 				<div class="col-lg-2 col-lg-offset-1">
 					<h5>ABOUT</h5>
 				</div>
@@ -82,18 +61,18 @@
 	<!--EDUCATION DESCRIPTION -->
 	<div class="container desc">
 		<div class="row">
-
 				<div class="col-lg-2 col-lg-offset-1">
 					<h5>EDUCATION</h5>
 				</div>
 				<div class="col-lg-6">
-					<p><t>院校</t>
+					<p><span>
+						院校</span>
 						太原理工大学<br/>
 					</p>
-					<p><t>专业</t>
+					<p><span>专业</span>
 						软件工程<br/>
 					</p>
-					<p><t>学历</t>
+					<p><span>学历</span>
 						本科<br/>
 					</p>
 				</div>
@@ -147,10 +126,10 @@
 				<div class="col-lg-3">
 					<p><sm>2015.12.01-2016.12.25</sm></p>
 				</div>
-		</div><!--/.row -->
+		</div>
 		<br>
 		<hr>
-	</div><!--/.container -->
+	</div>
 	
 	
 	<!--SKILLS DESCRIPTION -->
@@ -162,8 +141,7 @@
 					</div>
 					<div class="col-lg-3 centered">
 						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Javascript</p>
-						<br>
+						<p>Javascr
 						<script>
 							var doughnutData = [
 									{
@@ -175,13 +153,12 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
 						<canvas id="bootstrap" height="130" width="130"></canvas>
 						<p>Bootstrap</p>
-						<br>
 						<script>
 							var doughnutData = [
 									{
@@ -199,7 +176,6 @@
 					<div class="col-lg-3 centered">
 						<canvas id="wordpress" height="130" width="130"></canvas>
 						<p>jQuery</p>
-						<br>
 						<script>
 							var doughnutData = [
 									{
@@ -270,10 +246,10 @@
 						</script>
 					</div>
 
-			</div><!--/.row -->
+			</div>
 			<br>
-		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
+		</div>
+	</div>
 
 
 
@@ -314,10 +290,10 @@
 					</p>
 				</div>
 		
-		</div><!--/.row -->
+		</div>
 		<br>
 		<br>
-	</div><!--/.container -->
+	</div>
 	
 
 
@@ -354,14 +330,9 @@
 
 					</p>
 				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-	
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+			</div>
+		</div>
+	</div>
     <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>

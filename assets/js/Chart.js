@@ -1,20 +1,7 @@
-/*!
- * Chart.js
- * http://chartjs.org/
- *
- * Copyright 2013 Nick Downie
- * Released under the MIT license
- * https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
- */
 
-//Define the global Chart Variable as a class.
 window.Chart = function(context){
 
 	var chart = this;
-	
-	
-	//Easing functions adapted from Robert Penner's easing equations
-	//http://www.robertpenner.com/easing/
 	
 	var animationOptions = {
 		linear : function (t){
